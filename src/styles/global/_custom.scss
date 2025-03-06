@@ -1,0 +1,24 @@
+/* Custom SCSS variables */
+
+:root {
+    --primary-color: #5B3FA3;
+    --primary-color-text: #ffffff;
+
+    --dark-color: #31245B;
+    --text-color: #ffffff;
+
+    --surface-ground: #f8f9fa;
+    --surface-section: #ffffff;
+    --surface-card: #ffffff;
+    --surface-overlay: #ffffff;
+    --surface-border: #dce1e7;
+    --surface-hover: #f6f6f6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-color);
+    color: var(--text-color);
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}

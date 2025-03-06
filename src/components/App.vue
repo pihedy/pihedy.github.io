@@ -1,38 +1,22 @@
 <script setup lang="ts">
+
+import Fieldset from 'primevue/fieldset';
+
 </script>
 
 <template>
+
     <div id="app">
-        <header>
-            <nav>
-                <router-link to="/">Home</router-link>
-            </nav>
-        </header>
+        <Fieldset legend="Header">
+            <p class="m-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </Fieldset>
 
         <main>
             <router-view></router-view>
         </main>
     </div>
+
 </template>
-
-<style scoped>
-    #app {
-        font-family: Arial, sans-serif;
-        text-align: center;
-    }
-
-    nav {
-        background: #333;
-        padding: 1rem;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin: 0 10px;
-    }
-
-    nav a:hover {
-        text-decoration: underline;
-    }
-</style>

@@ -11,6 +11,7 @@ import Aura from '@primeuix/themes/aura';
 
 import router from './router/index';
 
+import 'primeflex/primeflex.min.css';
 import './styles/main.scss';
 
 const app = createApp(App);

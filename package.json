@@ -2,6 +2,7 @@
     "name": "pihedy-github-pages",
     "version": "1.0.0",
     "private": true,
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
@@ -9,18 +10,18 @@
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
-        "@primeuix/themes": "^1.0.0",
-        "primeflex": "^4.0.0",
-        "primevue": "^4.3.1",
+        "lucide-vue-next": "^0.479.0",
         "vue": "^3.4.0",
         "vue-router": "^4.2.0"
     },
     "devDependencies": {
-        "@primevue/auto-import-resolver": "^4.3.1",
         "@types/node": "^22.13.9",
         "@vitejs/plugin-vue": "^5.0.0",
+        "autoprefixer": "^10.4.20",
         "gh-pages": "^5.0.0",
+        "postcss": "^8.5.3",
         "sass": "^1.85.1",
+        "tailwindcss": "^3.4.17",
         "typescript": "^5.2.0",
         "unplugin-vue-components": "^28.4.1",
         "vite": "^6.2.0"

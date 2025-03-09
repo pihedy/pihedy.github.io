@@ -1,3 +1,8 @@
 /* Main SCSS file */
 
-@use "./global/custom";
+@use './global/custom';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

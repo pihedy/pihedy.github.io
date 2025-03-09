@@ -1,24 +1,26 @@
 /* Custom SCSS variables */
 
-:root {
-    --primary-color: #5B3FA3;
-    --primary-color-text: #ffffff;
-
-    --dark-color: #31245B;
-    --text-color: #ffffff;
-
-    --surface-ground: #f8f9fa;
-    --surface-section: #ffffff;
-    --surface-card: #ffffff;
-    --surface-overlay: #ffffff;
-    --surface-border: #dce1e7;
-    --surface-hover: #f6f6f6;
+@layer base {
+    html, body {
+        @apply bg-background text-gray-100;
+        @apply font-mono;
+    }
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--dark-color);
-    color: var(--text-color);
-    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+@layer components {
+    .container {
+        @apply mx-auto w-full max-w-screen-xl px-4;
+    }
+
+    .card {
+        @apply border border-slate-800 p-6 rounded-lg backdrop-blur-sm;
+        background-color: #140e24;
+    }
+}
+
+@layer base {
+    :root {
+        --color-background: #0c0917;
+        --color-primary: #5B3FA3;
+    }
 }

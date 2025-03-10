@@ -1,12 +1,15 @@
 <script setup lang="ts">
 
-import { Pickaxe } from 'lucide-vue-next';
-import { MoveRight } from 'lucide-vue-next';
+import { Pickaxe, MoveRight } from 'lucide-vue-next';
+
+import ProjectList from '@/elements/global/ProjectList.vue';
+
+import projects from '@/data/projects.json';
 
 </script>
 
 <template>
-    <section id="projects-list" class="space-y-6">
+    <section id="projects-list" class="space-y-6 pt-4">
 
         <div class="flex items-center justify-between">
 
@@ -22,8 +25,6 @@ import { MoveRight } from 'lucide-vue-next';
 
         </div>
 
-        <div class="grid md:grid-cols-2 gap-6">
-            asdasdasd
-        </div>
+        <ProjectList :projects="projects" :featured="true" />
     </section>
 </template>

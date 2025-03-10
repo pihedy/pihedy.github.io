@@ -15,7 +15,7 @@
         "vue-router": "^4.2.0"
     },
     "devDependencies": {
-        "@types/node": "^22.13.9",
+        "@types/node": "^22.13.10",
         "@vitejs/plugin-vue": "^5.0.0",
         "autoprefixer": "^10.4.20",
         "gh-pages": "^5.0.0",

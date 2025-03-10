@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Fooocus Enhancer",
+        "description": "Fooocus AI interface is a quality of life utilities extension.",
+        "image": "https://placehold.co/600x400",
+        "link": "https://github.com/pihedy/fooocus-enhancer",
+        "tags": [
+            "TypeScript", "VueJS", "Webpack", "Fooocus AI"
+        ],
+        "featured": true
+    },
+    {
+        "name": "Firebot WebSocket Connection",
+        "description": "Adds custom WebSocket connectivity to the Firebot app for remote control.",
+        "image": "https://placehold.co/600x400",
+        "link": "https://github.com/pihedy/firebot-custom-websocket-connection",
+        "tags": [
+            "TypeScript", "Socket.IO", "Firebot", "Webpack"
+        ],
+        "featured": true
+    }
+]

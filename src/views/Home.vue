@@ -2,7 +2,7 @@
 
 import About from '@/elements/home/About.vue';
 import Skills from '@/elements/home/Skills.vue';
-import ProjectsList from '@/elements/home/ProjectsList.vue';
+import ProjectsList from '@/elements/home/FeaturedProjects.vue';
 
 </script>
 

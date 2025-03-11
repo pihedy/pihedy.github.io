@@ -18,10 +18,10 @@ import projects from '@/data/projects.json';
                 <h2 class="text-lg font-bold">Featured Projects</h2>
             </div>
 
-            <a href="#" class="flex items-center gap-2 text-sm text-slate-400 hover:text-slate-200 transition-colors">
+            <router-link to="/projects" class="flex items-center gap-2 text-sm text-slate-400 hover:text-slate-200 transition-colors">
                 View all 
                 <MoveRight class="w-4 h-4" />
-            </a>
+            </router-link>
 
         </div>
 

@@ -26,14 +26,12 @@ const projects = computed(() => {
     return props.projects;
 });
 
-console.log(projects.value);
-
 </script>
 
 <template>
 
     <div class="grid md:grid-cols-2 gap-6">
-        <a href="#" class="card" v-for="project in projects">
+        <a :href="project.link" class="card" v-for="project, key in projects" target="_blank" rel="noopener noreferrer" :key="key">
 
             <div class="flex justify-between items-center gap-4">
                 <h3 class="font-bold text-lg text-slate-100 group-hover:text-green-400 transition-colors">

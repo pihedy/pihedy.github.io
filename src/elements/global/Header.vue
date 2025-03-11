@@ -13,7 +13,7 @@
 
         <div class="flex gap-4 sm:gap-6 text-sm sm:text-base">
             <router-link to="/">~/home</router-link>
-            <router-link to="/blog">~/blog</router-link>
+            <router-link to="/projects">~/projects</router-link>
         </div>
 
     </nav>

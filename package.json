@@ -12,6 +12,7 @@
     "dependencies": {
         "lucide-vue-next": "^0.479.0",
         "vue": "^3.4.0",
+        "vue-gtag-next": "^1.14.0",
         "vue-router": "^4.2.0"
     },
     "devDependencies": {

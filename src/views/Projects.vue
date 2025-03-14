@@ -15,7 +15,7 @@ import projects from '@/data/projects.json';
             Projects
         </h1>
 
-        <p class="text-slate-400 max-w-2xl">I work on my leisure projects using new technologies. Check out my GitHub.</p>
+        <p class="text-slate-400 max-w-2xl">I work on my leisure projects using new technologies. Check out my <a href="https://github.com/pihedy" class="text-slate-50 font-bold">GitHub</a>.</p>
     </header>
 
     <ProjectList :projects="projects" :featured="false" />
